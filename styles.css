@@ -65,6 +65,10 @@ nav a:active {
   .grid-container {
     grid-template-columns: repeat(2, 1fr); /* 2 cards on medium-sized screens */
   }
+  .search-bar{
+    width: 150px;
+  }
+
 }
 
 /* Media query for small screens */
@@ -86,6 +90,9 @@ main {
   box-shadow: 5px 5px 10px 1px #ffffff;
   margin: 10px;
   padding: 10px;
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
 
 .content {
@@ -124,6 +131,7 @@ main {
 
 /* Author section styles */
 .author {
+
   margin-bottom: 20px;
 }
 
@@ -135,7 +143,13 @@ main {
 
 .author h4 {
   margin: 0;
+
 }
+.author p{
+width: 215px;
+  
+  }
+
 
 /* Social links section styles */
 .social-links {
@@ -150,6 +164,7 @@ main {
 /* Recent blog posts section styles */
 .recent-posts {
   margin-bottom: 20px;
+  width: 215px;
 }
 
 .recent-posts ul {
@@ -160,6 +175,7 @@ main {
 
 .recent-posts li {
   margin-bottom: 10px;
+  width: 200px;
 }
 
 /* Example styles for links */
