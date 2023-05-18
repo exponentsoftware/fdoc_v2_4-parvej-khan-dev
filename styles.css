@@ -1,0 +1,197 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+nav {
+  background-color: rgb(37, 104, 237);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.nav-list {
+  display: flex;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: rgb(216, 217, 255);
+}
+nav a:active {
+  color: rgb(216, 217, 255);
+  text-decoration: underline;
+}
+
+.search-bar {
+  /* float: right; */
+  padding: 6px;
+  width: 280px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+/* Main Area */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards on desktop */
+  grid-gap: 20px;
+}
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 5px -3px 15px 0px #f4f4f4;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+/* Media query for medium-sized screens */
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards on medium-sized screens */
+  }
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* 1 card on small screens */
+  }
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: inherit;
+}
+
+.sidebar {
+  width: 22%;
+  float: left;
+  box-shadow: 5px 5px 10px 1px #ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+
+.content {
+  max-width: 74%;
+  float: left;
+}
+
+/* card Area */
+
+.card-img {
+  width: 240px;
+  height: 150px;
+  border-radius: 10px;
+  filter: grayscale(100%);
+}
+
+.card-title {
+  text-align: left;
+  color: rgb(37, 104, 237);
+  font-size: 18px;
+}
+
+.pb-date {
+  font-size: 12px;
+  text-align: left;
+  line-height: 10px;
+}
+
+.card-des {
+  font-size: 14px;
+  text-align: left;
+  line-height: 15px;
+}
+
+/* sidebar */
+
+/* Author section styles */
+.author {
+  margin-bottom: 20px;
+}
+
+.author img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.author h4 {
+  margin: 0;
+}
+
+/* Social links section styles */
+.social-links {
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Recent blog posts section styles */
+.recent-posts {
+  margin-bottom: 20px;
+}
+
+.recent-posts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent-posts li {
+  margin-bottom: 10px;
+}
+
+/* Example styles for links */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(67, 115, 248);
+}
+
+/* footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Define footer link styles */
+footer a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+/* Define footer link hover styles */
+footer a:hover {
+  text-decoration: underline;
+}

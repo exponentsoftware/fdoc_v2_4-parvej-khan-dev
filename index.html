@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Add your header content here -->
+      <nav class="nav">
+        <li class="nav-list">
+          <a href="/">
+            <ol class="nav-item">
+              Home
+            </ol>
+          </a>
+          <a href="#sidebar">
+            <ol class="nav-item">
+              About
+            </ol>
+          </a>
+
+          <a href="#sidebar">
+            <ol class="nav-item">
+              Contact
+            </ol>
+          </a>
+          <a href="#content">
+            <ol class="nav-item">
+              Blog
+            </ol>
+          </a>
+        </li>
+        <input type="text" placeholder="Search.." class="search-bar" />
+      </nav>
+    </header>
+    <main>
+      <section class="content" id="#content">
+        <!-- Add your main content area here -->
+        <div class="grid-container">
+          <div class="grid-item">
+            <div class="card">
+              <img
+                src="https://images.freeimages.com/images/large-previews/f6f/ice-winter-frost-ice-floe-cold-icicles-fence-fence-railing-1636328.jpg"
+                class="card-img"
+              />
+              <h3 class="card-title">The Power of Positive Thinking</h3>
+              <p class="pb-date">Publication: 12-May-2023</p>
+              <p class="card-des">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                magni quidem dignissimos numquam perferendis eligendi fugiat,
+                consequatur inventore id repellendus eos dolorem possimus
+                <a class="read-more" href="#">Read more</a>
+              </p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="card">
+              <img
+                src="https://images.freeimages.com/images/large-previews/0e3/dawesville-cut-bridge-1-1624905.jpg"
+                class="card-img"
+              />
+              <h3 class="card-title">Mastering Time Management Techniques</h3>
+              <p class="pb-date">Publication: 18-May-2023</p>
+              <p class="card-des">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                magni quidem dignissimos numquam perferendis eligendi fugiat,
+                consequatur inventore id repellendus eos dolorem possimus
+                <a class="read-more" href="#">Read more</a>
+              </p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="card">
+              <img
+                src="https://images.freeimages.com/images/large-previews/768/frutillar-chile-1620519.jpg"
+                class="card-img"
+              />
+              <h3 class="card-title">Unlocking Creativity for Innovation</h3>
+              <p class="pb-date">Publication: 15-May-2023</p>
+              <p class="card-des">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                magni quidem dignissimos numquam perferendis eligendi fugiat,
+                consequatur inventore id repellendus eos dolorem possimus
+                <a class="read-more" href="#">Read more</a>
+              </p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="card">
+              <img
+                src="https://images.freeimages.com/images/large-previews/f6f/ice-winter-frost-ice-floe-cold-icicles-fence-fence-railing-1636328.jpg"
+                class="card-img"
+              />
+              <h3 class="card-title">Achieving Work-Life Balance</h3>
+              <p class="pb-date">Publication: 12-May-2023</p>
+              <p class="card-des">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                magni quidem dignissimos numquam perferendis eligendi fugiat,
+                consequatur inventore id repellendus eos dolorem possimus
+                <a class="read-more" href="#">Read more</a>
+              </p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="card">
+              <img
+                src="https://images.freeimages.com/images/large-previews/0e3/dawesville-cut-bridge-1-1624905.jpg"
+                class="card-img"
+              />
+              <h3 class="card-title">The Impact of Mindfulness Practices</h3>
+              <p class="pb-date">Publication: 18-May-2023</p>
+              <p class="card-des">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                magni quidem dignissimos numquam perferendis eligendi fugiat,
+                consequatur inventore id repellendus eos dolorem possimus
+                <a class="read-more" href="#">Read more</a>
+              </p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="card">
+              <img
+                src="https://images.freeimages.com/images/large-previews/768/frutillar-chile-1620519.jpg"
+                class="card-img"
+              />
+              <h3 class="card-title">Unlocking Creativity Within You</h3>
+              <p class="pb-date">Publication: 15-May-2023</p>
+              <p class="card-des">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                magni quidem dignissimos numquam perferendis eligendi fugiat,
+                consequatur inventore id repellendus eos dolorem possimus
+                <a class="read-more" href="#">Read more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <aside class="sidebar">
+        <!-- Add your sidebar content here -->
+        <div class="author">
+          <img
+            src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg"
+            alt="Author Avatar"
+          />
+          <h4>Parvej khan</h4>
+          <p>Web developer & Tech Writer</p>
+        </div>
+
+        <div class="social-links">
+          <h4>Follow Me</h4>
+          <a href="https://twitter.com/digitalparvej">Twitter</a>
+          <a href="https://instagram.com/kparvej761">Instagram</a>
+          <a href="https://linkedin.com/in/parvej09">LinkedIn</a>
+        </div>
+
+        <div class="recent-posts">
+          <h4>Populer Blog Posts</h4>
+          <ul>
+            <li><a href="#"> The Power of Positive Thinking</a></li>
+            <li><a href="#">Mastering Time Management Techniques</a></li>
+            <li><a href="#">Unlocking Creativity for Innovation</a></li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <!-- Add your footer content here -->
+      <p>&copy; 2023 Parvej khan. All rights reserved.</p>
+      <div>
+        <a href="/" target="_blank">Home</a>
+        <a href="about.html" target="_blank">About</a>
+        <a href="contact.html" target="_blank">Contact</a>
+        <a href="blog.html" target="_blank">Blog</a>
+      </div>
+    </footer>
+  </body>
+</html>
